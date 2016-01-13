@@ -1,0 +1,37 @@
+{
+  "name": "hyperkv-server",
+  "version": "1.0.0",
+  "description": "a basic api server built with hyperkv",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec",
+    "start": "node examples/server.js"
+  },
+  "browser": {
+    "request": "xhr"
+  },
+  "author": "sethvincent <sethvincent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "body": "^5.1.0",
+    "duplexify": "^3.4.2",
+    "hyperkv": "^1.4.0",
+    "hyperlog": "^4.7.0",
+    "level": "^1.4.0",
+    "level-party": "^3.0.4",
+    "match-routes": "^2.0.0",
+    "memdb": "^1.3.1",
+    "request": "^2.67.0",
+    "response": "^0.18.0",
+    "subleveldown": "^2.1.0",
+    "through2": "^2.0.0",
+    "xhr": "^2.2.0"
+  },
+  "devDependencies": {
+    "memdb": "^1.3.1",
+    "standard": "^5.4.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "hyperkv-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a basic api server built with hyperkv",
   "main": "index.js",
   "scripts": {

@@ -26,7 +26,7 @@ server.listen(3333, function () {
 
 ## Examples
 
-See more examples in the [examples directory](examples)
+See more examples in the [examples directory](https://github.com/sethvincent/hyperkv-server/tree/master/examples)
 
 ## License
-[MIT](LICENSE.md)
+[MIT](https://github.com/sethvincent/hyperkv-server/blob/master/LICENSE.md)

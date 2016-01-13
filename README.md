@@ -26,7 +26,7 @@ server.listen(3333, function () {
 
 ## Examples
 
-See more examples in the [examples directory]('examples')
+See more examples in the [examples directory](examples)
 
 ## License
 [MIT](LICENSE.md)
